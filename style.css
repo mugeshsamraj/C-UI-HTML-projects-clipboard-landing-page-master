@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+  max-width: 1440px;
+  margin :auto ;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #9FABB2;
+}
+h1,h2,h3,h4,h5,h6{
+  color:#000000;
+  padding-bottom: 20px;
+}
+p{
+  padding-bottom: 15px;
+}
+.header{
+  background-image: url(./images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 6em 0 ;
+}
+.header .logo{
+  padding-bottom: 25px;
+}
+.header .h2{
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.header .p{
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+.keep{
+  text-align: center;
+  padding: 6em 0 ;
+  
+}
+.keep .h2{
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.keep .p{
+  padding-bottom: 10px;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+}
+.small-con-1{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.small-con-1 .img{
+  display: flex;
+  width: 50%;
+}
+.small-con-1 text h5 p{
+  margin-left: 30%;
+  height: 90%;
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.access{
+  text-align: center;
+  padding: 1em 0 ;
+}
+.access .h2{
+  display: flex;
+  align-items: center;
+}
+.image-phone{
+  text-align: center;
+  padding: 1em 0 ;
+}
+.supercharge{
+  text-align: center;
+  padding: 1em 0 ;
+}
+.container-1{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1em 0 ;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0 ;
+}
+.clipboard{
+  text-align: center;
+  padding: 1em 0 ;
+}
+button{
+  justify-content: center;
+  border-radius: 25px;
+  background-color: hsl(171, 66%, 44%);
+  font-size: 16px;
+  padding: 15px;
+}
+button Mac
+{
+  background-color: hsl(233, 100%, 69%);
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul{
+  display: flex;
+}
+.footer ul li{
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-right: 2px ;
+  flex-direction: column;
+}
+.footer .social-logo .img{
+  display: flex;
+  width: 16px;
+  justify-content: center;
+}
